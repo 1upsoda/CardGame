@@ -52,24 +52,24 @@ public class MainActivity extends Activity
 				if(suitMake == 0)
 				{
 					cardSuit = "S";
-					Deck.add(""  +cardNumber+ "" +cardSuit+ "");
+					Deck.add(""  +cardNumber+ "" +cardSuit+ ".png");
 				}
 				else
 				if(suitMake == 1)
 				{
 					cardSuit = "H";
-					Deck.add(""  +cardNumber+ "" +cardSuit+ "");
+					Deck.add(""  +cardNumber+ "" +cardSuit+ ".png");
 				}
 				else
 				if(suitMake == 2)
 				{
 					cardSuit = "D";
-					Deck.add(""  +cardNumber+ "" +cardSuit+ "");
+					Deck.add(""  +cardNumber+ "" +cardSuit+ ".png");
 				}
 				else
 				{
 					cardSuit = "C";
-					Deck.add(""  +cardNumber+ "" +cardSuit+ "");
+					Deck.add(""  +cardNumber+ "" +cardSuit+ ".png");
 				}
 				suitMake++;
 			}
